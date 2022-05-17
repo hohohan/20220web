@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0; list-style: none;}
+        .clearpix:after{content: ""; display: block; clear: both;}
+        
+        /* header */
+        .header{
+            width: 1000px;
+            background-color: blue;
+            margin: 0 auto;
+        }
+
+        .header>h1{
+            width: 150px;
+            height: 100px;
+            background-color: red;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .header_nav{
+            width: 100%;
+            background-color: pink;
+        }
+
+        /* .header_nav>ul{
+            background-color: brown;
+            float: right;
+            width: 25%;
+        } */
+
+        .header_nav>ul>li{
+            float: left;
+            width: 25%;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .visual{
+            height: 700px;
+            background-color:slateblue
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <header class="header clearpix">
+        <h1>LOGO</h1>
+        <div class="header_nav">
+            <ul class="clearpix">
+                <li>memu1</li>
+                <li>memu2</li>
+                <li>memu3</li>
+                <li>memu4</li>
+            </ul>
+        </div>
+    </header>
+    <div class="visual"></div>
+</body>
+
+<!-- 줄 정리 드래그 컨트롤+k+f -->
+</html>

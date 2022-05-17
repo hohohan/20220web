@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      /* initial reset */
+      /* 셀과 셀 사이 간격은 마진 / 안쪽 여백은 패딩 */
+
+      *{margin: 0; padding:0;}
+
+
+      *{color:red}
+      
+        div{color:blue} /* 1 */
+        .han1{color:green} /* 10 */
+        #han{color:skyblue} /* 100 */
+
+        div.han1{color:black}
+
+        /* * < tag < class < id < inline style */
+        .tred{color:red;font-weight: bold;}
+        .tred.tbold{font-weight: bold;}
+
+        div.box{width:100px;
+                height: 100px;
+                background-color: #ff0000;
+                /* margin-left: auto;
+                margin-right: auto; */
+
+                margin: 0 auto;
+
+            }
+            div.box1{
+                width: 100%; height: 100px;
+                background-color: #0f0;
+            }
+
+            header#hd{
+                width: 1200px; height: 100px;
+                margin: 0 auto;
+                background-color: skyblue;
+            }
+
+
+    </style>
+</head>
+<body>
+    <!-- display:block 요소 / 부모 크기로 채워짐 -->
+    <h1></h1>
+    <ul><li></li></ul>
+    <p></p>
+    <div></div><hr>
+
+    <!-- display:inline / 같은 라인에 옆에 붙음 -->
+    <img src="" alt="">
+    <a href=""></a>
+    <span></span>
+
+    hanyong5
+    <div id="han" class="han2">
+        han
+    </div>
+    
+    <div class="han1" style="color:orange">
+        han
+    </div>
+
+    <div>
+        Lorem <span class="tred"> ipsum </span> dolor <span class="tred tbold"> sit </span>amet.
+
+    </div>
+
+    <div class="box"></div>
+    <div class="box1"></div>
+
+    
+    
+
+
+
+</body>
+</html>

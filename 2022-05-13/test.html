@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        .header{
+
+        }
+
+        .box{
+            width: 1200px; height: 100px;
+            background-color: aqua;
+           /* margin-left: auto;
+           margin-right: auto; */
+           margin: 10px auto;
+        }
+
+        .visualWrap{
+            width: 100%;
+            background-color: skyblue;
+            margin: 0 auto;
+            background-image: url(images/img.png);
+            padding: 20px 0;
+        }
+
+        .visualWrap > .visual{
+            background-color: #00f;
+            width: 1200px; height: 400px;
+            margin: 0 auto;
+        }
+
+        .section{
+            width: 1200px; height: 200px;
+            background-color: green;
+            margin: 0 auto;
+        }
+
+
+        /* * < tag < class < id < inline style < ?
+        margin: 0 auto; 하면 블럭 단위 요소가 가운데로 옴 */ 
+
+    </style>
+</head>
+<body>
+
+    <!-- id는 #      class는 .  ex) .box #box -->
+
+    <div class="box"></div>
+    <div class="header"></div>
+
+    <div class="visualWrap">
+        <div class="visual"></div>
+    </div>
+
+    <div class="section">
+
+    </div>
+
+
+    
+
+</body>
+</html>
