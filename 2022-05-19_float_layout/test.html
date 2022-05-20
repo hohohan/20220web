@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* reset */
+        *{margin: 0; padding: 0; list-style: none;}
+        .clearfix:after{content: ""; display: block; clear: both;}
+        img{display: block;}
+
+        .box1{
+            width: 1400px;
+            background-color: red;
+            margin: 0 auto;
+        }
+
+        .box1 li{
+            float: left;
+            margin-right: 130px;
+            width: calc( ( 1400px - 260px ) / 3 );
+            
+        }
+
+        .box1 li:last-child{margin-right: 0;}
+        .box1 li img{width: 100%;}
+        .box1 h2{margin-bottom: 50px; text-align: center;}
+
+
+    </style>
+</head>
+<body>
+    <section class="box1">
+        <h2>box</h2>
+        <ul class="clearfix">
+            <li><img src="../images/apple.png" alt=""></li>
+            <li><img src="../images/apple.png" alt=""></li>
+            <li><img src="../images/apple.png" alt=""></li>
+        </ul>
+    </section>
+</body>
+</html>
