@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    
+    <style>
+        .headerwrap .header{
+            width: 1000px;
+            background-color: skyblue;
+            margin: 0 auto;
+            padding: 10px 0;
+            position: relative;
+        }
+
+        .headerwrap .navbar{position: absolute; right:10px; top:10px}
+        .headerwrap .navbar ul{width: 600px; background-color: pink;}
+        .headerwrap .navbar li{
+            float: left; height: 43px;
+            width: 20%;
+        }
+        .headerwrap .navbar li a{display: block; line-height: 43px; text-align: center;}
+        .headerwrap{background: gray;}
+
+        .hdwrap{}
+        .hdwrap .header{
+            width: 1000px; margin: 0 auto; height: 120px;
+            background-color: blue;
+            padding: 20px  0;
+            position: relative;
+        }
+
+        .hdwrap h1{background-color: #ddd;
+        width: 100px; margin: 0 auto; text-align: center;}
+
+        .hdwrap .navbar{
+            background-color: yellow; position: absolute; bottom: 0 ;
+            width: 100%;
+        }
+        .hdwrap .navbar ul{}
+        .hdwrap .navbar li{float: left;width: 20%;}
+        .hdwrap .navbar a{display: block; line-height: 40px;text-align: center;}
+    </style>
+</head>
+<body>
+    <div class="headerwrap">
+        <header class="header">
+            <h1><a href="#">LOGO</a></h1>
+            <nav class="navbar">
+                <ul class="clearfix">
+                    <li><a href="#">menu1</a></li>
+                    <li><a href="#">menu2</a></li>
+                    <li><a href="#">menu3</a></li>
+                    <li><a href="#">menu4</a></li>
+                    <li><a href="#">menu5</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <header class="hdwrap">
+        <div class="header">
+            <h1><a href="#">LOGO</a></h1>
+            <nav class="navbar">
+                <ul class="clearfix">
+                    <li><a href="#">menu1</a></li>
+                    <li><a href="#">menu2</a></li>
+                    <li><a href="#">menu3</a></li>
+                    <li><a href="#">menu4</a></li>
+                    <li><a href="#">menu5</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+</body>
+</html>
